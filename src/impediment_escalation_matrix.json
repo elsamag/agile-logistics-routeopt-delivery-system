@@ -1,0 +1,28 @@
+{
+  "enterprise": "Elsamag IT Solutions",
+  "author": "Samuel Chinwendu Agu",
+  "project": "agile-logistics-routeopt-delivery-system",
+  "escalation_tiers": [
+    {
+      "tier": 1,
+      "severity": "Low - Minor task ambiguity",
+      "sla_hours": 8,
+      "owner": "Agile Scrum Master / Delivery Lead",
+      "action": "Clarify acceptance criteria with Product Owner"
+    },
+    {
+      "tier": 2,
+      "severity": "Medium - Technical API dependency blocked",
+      "sla_hours": 4,
+      "owner": "Delivery Lead & Lead Architect",
+      "action": "Pair programming session / Mock API stub injection"
+    },
+    {
+      "tier": 3,
+      "severity": "High - Core routing engine hardware failure",
+      "sla_hours": 1,
+      "owner": "Director of Engineering & Samuel Chinwendu Agu",
+      "action": "Emergency swarm & bypass routing fallback deployment"
+    }
+  ]
+}
